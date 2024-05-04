@@ -1,0 +1,34 @@
+title: Matt Smith
+description: > # this means to ignore newlines until "baseurl:"
+  Matt Smith | Global Entrepreneurship Policy.
+permalink: ':title'
+# permalink: ':title'
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://matttp.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Matt Smith # add your name
+author-img: meta-cover.png # add your photo
+about-author: Matt Smith | Global Entrepreneurship Policy. # add description
+social-twitter: # add your Twitter handle
+social-instagram: # add your Instagram handle
+social-github: matttp # add your Github handle
+social-linkedin: matttp # add your Linkedin handle
+social-email: matt@matt-s.com # add your Email address
+social-cv: cv.pdf # add your CV pdf name
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: '/page/:num'
+
+exclude: ['node_modules', 'gulpfile.js', 'package.json', 'yarn.lock']

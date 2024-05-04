@@ -1,0 +1,181 @@
+---
+layout: about
+---
+
+<header id="top">
+  <br /><br />
+  <div
+    style="
+      margin: auto;
+      padding: 30px;
+      border-radius: 25px;
+      width: 80%;
+      max-width: 540px;
+      background-color: white;
+    "
+  >
+    <img
+      src="./avatar.png"
+      style="width: 150px; border-radius: 50%; vertical-align: middle"
+    />
+
+    <br /><br />
+
+    <div class="wow fadeIn">
+      <h1 class="wow fadeIn">Matt Smith</h1>
+      <i class="fa-regular fa-file-lines"></i>
+      <br />
+      <p class="wow fadeIn">Global Entrepreneurship Policy</p>
+
+      <div class="container" style="line-height: 1.6">
+        <div class="row text-center">
+          <div class="col-md-12" style="padding: 0">
+            <section class="contact">
+              <ul>
+                {% if site.social-linkedin %}
+                <li class="linkedin">
+                  <a
+                    href="https://linkedin.com/in/{{site.social-linkedin}}"
+                    target="_blank"
+                    ><i class="fab fa-linkedin fa-fw fa-lg"></i
+                  ></a>
+                </li>
+                {% else %}
+                <li class="linkedin">
+                  <a href="https://linkedin.com/" target="_blank"
+                    ><i
+                      class="fab fa-linkedin fa-fw fa-lg"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </li>
+                {% endif %} {% if site.social-twitter %}
+                <li>
+                  <a
+                    href="https://twitter.com/{{ site.social-twitter }}"
+                    target="_blank"
+                    ><i
+                      class="fab fa-twitter fa-fw fa-lg"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </li>
+                {% else %}
+                <!-- <li>
+                  <a href="https://twitter.com/" target="_blank"
+                    ><i
+                      class="fab fa-twitter fa-fw fa-lg"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </li> -->
+                {% endif %} {% if site.social-instagram %}
+                <li>
+                  <a
+                    href="https://instagram.com/{{ site.social-instagram }}"
+                    target="_blank"
+                    ><i
+                      class="fab fa-instagram fa-fw fa-lg"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </li>
+                {% else %}
+                <!-- <li>
+                  <a href="https://instagram.com/" target="_blank"
+                    ><i
+                      class="fab fa-instagram fa-fw fa-lg"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </li> -->
+                {% endif %} {% if site.social-github %}
+                <!-- <li class="github">
+                  <a
+                    href="https://github.com/{{site.social-github}}"
+                    target="_blank"
+                    ><i class="fab fa-github fa-fw fa-lg"></i
+                  ></a>
+                </li>
+                {% else %}
+                <li class="github">
+                  <a href="https://github.com/" target="_blank"
+                    ><i class="fab fa-github fa-fw fa-lg" aria-hidden="true"></i
+                  ></a>
+                </li> -->
+                {% endif %} {% if site.social-cv %}
+                <!-- <li class="cv">
+                  <a
+                    href="https://matttp.github.io/{{site.social-cv}}"
+                    target="_blank"
+                    ><i class="fa-regular fa-file-lines fa-fw fa-lg"></i
+                  ></a>
+                </li> -->
+                {% else %}
+                <li class="cv">
+                  <a href="https://matttp.github.io/" target="_blank"
+                    ><i
+                      class="fa-regular fa-file-lines fa-fw fa-lg"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </li>
+                {% endif %} {% if site.social-email %}
+                <li class="email">
+                  <a href="mailto:{{site.social-email}}"
+                    ><i class="far fa-envelope fa-fw fa-lg"></i
+                  ></a>
+                </li>
+                {% else %}
+                <li class="email">
+                  <a href="mailto:ali@startbook.co.uk"
+                    ><i
+                      class="far fa-envelope fa-fw fa-lg"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </li>
+                {% endif %}
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+      <br />
+      <p
+        class="d-none d-md-block"
+        style="
+          text-transform: none;
+          font-weight: 300;
+          text-align: justify;
+          margin: auto;
+          width: 86%;
+        "
+      >
+        Matt Smith is director of research and policy at the Global
+        Entrepreneurship Network - a community connecting entrepreneurs,
+        investors, researchers and policymakers across 180 countries.
+        <br /><br />
+
+        Matt has worked at the heart of the UK’s world-leading entrepreneurial
+        ecosystem since 2008, first as co-founder of student entrepreneur
+        charity NACUE, and most recently as co-founder of think tank and
+        entrepreneurship foundation The Centre for Entrepreneurs (CFE), where he
+        remains a senior fellow providing strategic guidance on its research and
+        ecosystem-building activities.
+        <br /><br />
+
+        Matt helped launch the European Startup Network in 2016 and from 2020
+        has served on the board of the National Enterprise Network - connecting
+        enterprise agencies across the UK. He has been a Great British
+        Entrepreneur Awards judge since 2014.
+        <br /><br />
+
+        Matt writes a weekly newsletter, 'The Startup State', that highlights
+        key entrepreneurship news, reports, commentary, and features from around
+        the world. Read and subscribe: https://www.genglobal.org/news/731
+      </p>
+    </div>
+  </div>
+  <br /><br />
+</header>
